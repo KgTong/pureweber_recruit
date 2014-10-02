@@ -1,0 +1,53 @@
+.page-arrow {
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -11px;
+  border: 3px solid transparent;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  z-index: 999;
+  opacity: .8;
+  -webkit-transform: rotate(45deg);
+  -webkit-animation: arrow 1s ease;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: .8s;
+}
+
+@-webkit-keyframes arrow {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0) rotate(45deg);
+    transform: translate3d(0, 100%, 0) rotate(45deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0) rotate(45deg);
+    transform: translate3d(0, 100%, 0) rotate(45deg);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+
+/*images*/
+.index, .about, .inspects, .join{
+  width: 320px;
+  height: 576px;
+  z-index: 98;
+}
