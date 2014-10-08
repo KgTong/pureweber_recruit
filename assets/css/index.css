@@ -53,4 +53,17 @@
   z-index: 98;
 }
 
+/*button*/
+.btn {
+  position: absolute;
+  left: 40%;
+  top: 70%;
+  width: 80px;
+  height: 30px;
+  opacity: .8;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+}
+
 
